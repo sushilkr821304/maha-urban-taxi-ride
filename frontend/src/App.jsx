@@ -7,11 +7,13 @@ import RideHistory from './pages/RideHistory'
 import PopularRoutesPage from './pages/PopularRoutesPage'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import ScrollToTop from './components/ScrollToTop'
 import './index.css'
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app">
         <Navbar />
         <Routes>

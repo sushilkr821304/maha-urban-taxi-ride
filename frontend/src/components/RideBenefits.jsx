@@ -1,15 +1,13 @@
-const BenefitCard = ({ title, highlights, icon, image, badge }) => (
+const BenefitCard = ({ title, highlights, image }) => (
   <div className="benefit-card reveal">
     <div className="benefit-image">
       <img src={image} alt={title} />
-      {badge && <div className="benefit-badge">{badge}</div>}
     </div>
     <div className="benefit-info">
       <h3>{title}</h3>
       <ul className="benefit-highlights">
         {highlights.map((item, index) => (
           <li key={index}>
-            <i>✓</i>
             <span>{item}</span>
           </li>
         ))}
@@ -21,43 +19,30 @@ const BenefitCard = ({ title, highlights, icon, image, badge }) => (
 const RideBenefits = () => {
   const benefits = [
     {
-      title: "Driver Safety Assurance",
-      badge: "Verified",
-      image: "/car1.png",
+      title: "Senior citizen discount",
+      image: "/ride-b1.png",
       highlights: [
-        "Verified and background-checked drivers",
-        "Real-time ride tracking for safety",
-        "Emergency contact support"
+        "Up to 50% discount for eligible senior citizens",
+        "Affordable and convenient travel for elderly travelers",
+        "Valid identity proof required"
       ]
     },
     {
-      title: "Women Safety Priority",
-      badge: "Safe Travel",
-      image: "/hero2.png",
+      title: "Women's discount",
+      image: "/ride-b2.png",
       highlights: [
-        "Priority ride options for women riders",
-        "Verified drivers and secure travel",
-        "24/7 support for assistance"
+        "Up to 50% discount for eligible women passengers",
+        "Incentives for safe, respectful, and easy travel",
+        "Verification by agent/conductor is mandatory"
       ]
     },
     {
-      title: "Student Travel Discounts",
-      badge: "Education First",
-      image: "/hero1.png",
+      title: "School and college student discounts",
+      image: "/ride-b3.png",
       highlights: [
-        "Special discounted fares for students",
-        "Easy booking for daily commute",
-        "Affordable travel for education routes"
-      ]
-    },
-    {
-      title: "Senior Citizen Support",
-      badge: "Care & Comfort",
-      image: "/car3.png",
-      highlights: [
-        "Comfortable rides for elderly passengers",
-        "Easy pickup and drop assistance",
-        "Priority customer support"
+        "Up to 10% discount for regular student travelers",
+        "Valid school or college ID required",
+        "Aimed at supporting education-related travel"
       ]
     }
   ]
@@ -66,8 +51,8 @@ const RideBenefits = () => {
     <section className="section-padding bg-light-alt" id="benefits">
       <div className="container">
         <div className="section-header reveal center">
-          <h2>Ride Benefits</h2>
-          <p>Enjoy extra advantages and comfort when you travel with UrbanRide.</p>
+          <h2 className="benefit-title">Ride Benefits</h2>
+          <p className="benefit-subtitle">As part of social responsibility, concession is provided to eligible passengers as follows</p>
         </div>
         <div className="benefits-grid">
           {benefits.map((benefit, index) => (

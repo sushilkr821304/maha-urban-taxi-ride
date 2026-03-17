@@ -1,7 +1,11 @@
 import { useRef } from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay, Navigation } from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/navigation'
 
 const PopularRoute = ({ city, rides, badge, badgeClass, icon }) => (
-  <div className="route-card reveal">
+  <div className="route-card reveal active">
     <span className={`badge ${badgeClass}`}>{badge}</span>
     <div className="route-icon">
       <img src={icon} alt={city} />
@@ -14,96 +18,62 @@ const PopularRoute = ({ city, rides, badge, badgeClass, icon }) => (
 )
 
 const PopularRoutes = () => {
-  const scrollRef = useRef(null)
+  const swiperRef = useRef(null)
 
-  const scroll = (direction) => {
-    if (scrollRef.current) {
-      const scrollAmount = 350
-      scrollRef.current.scrollBy({
-        left: direction === 'left' ? -scrollAmount : scrollAmount,
-        behavior: 'smooth'
-      })
-    }
-  }
+  const routes = [
+    { city: "Pune", rides: "456", badge: "Trending", badgeClass: "badge-trending", icon: "/pune.png" },
+    { city: "Mumbai", rides: "412", badge: "Guest Favorite", badgeClass: "badge-favorite", icon: "/mumbai.png" },
+    { city: "Nashik", rides: "320", badge: "Top Rated", badgeClass: "badge-top", icon: "/pune.png" },
+    { city: "Nagpur", rides: "280", badge: "Customer Choice", badgeClass: "badge-favorite", icon: "/delhi.png" },
+    { city: "Solapur", rides: "190", badge: "Trending", badgeClass: "badge-trending", icon: "/bangalore.png" },
+    { city: "Kolhapur", rides: "210", badge: "Guest Favorite", badgeClass: "badge-favorite", icon: "/mumbai.png" },
+    { city: "Thane", rides: "540", badge: "Top Rated", badgeClass: "badge-top", icon: "/pune.png" },
+    { city: "Aurangabad", rides: "260", badge: "Trending", badgeClass: "badge-trending", icon: "/bangalore.png" },
+    { city: "Raigad", rides: "180", badge: "Guest Favorite", badgeClass: "badge-favorite", icon: "/mumbai.png" }
+  ]
 
   return (
     <section className="section-padding" id="routes">
       <div className="container">
-        <div className="section-header reveal">
+        <div className="section-header reveal active">
           <div className="header-text">
             <h2>Popular Taxi Routes</h2>
             <p>Explore the most booked routes with UrbanRide</p>
           </div>
           <div className="carousel-controls">
-            <button className="control-btn" onClick={() => scroll('left')}>←</button>
-            <button className="control-btn" onClick={() => scroll('right')}>→</button>
+            <button className="control-btn prev-route">←</button>
+            <button className="control-btn next-route">→</button>
           </div>
         </div>
         
-        <div className="routes-grid" ref={scrollRef}>
-          <PopularRoute 
-            city="Pune" 
-            rides="456" 
-            badge="Trending" 
-            badgeClass="badge-trending" 
-            icon="/pune.png"
-          />
-          <PopularRoute 
-            city="Mumbai" 
-            rides="412" 
-            badge="Guest Favorite" 
-            badgeClass="badge-favorite" 
-            icon="/mumbai.png"
-          />
-          <PopularRoute 
-            city="Nashik" 
-            rides="320" 
-            badge="Top Rated" 
-            badgeClass="badge-top" 
-            icon="/pune.png" 
-          />
-          <PopularRoute 
-            city="Nagpur" 
-            rides="280" 
-            badge="Customer Choice" 
-            badgeClass="badge-favorite" 
-            icon="/delhi.png"
-          />
-          <PopularRoute 
-            city="Solapur" 
-            rides="190" 
-            badge="Trending" 
-            badgeClass="badge-trending" 
-            icon="/bangalore.png"
-          />
-          <PopularRoute 
-            city="Kolhapur" 
-            rides="210" 
-            badge="Guest Favorite" 
-            badgeClass="badge-favorite" 
-            icon="/mumbai.png"
-          />
-          <PopularRoute 
-            city="Thane" 
-            rides="540" 
-            badge="Top Rated" 
-            badgeClass="badge-top" 
-            icon="/pune.png"
-          />
-          <PopularRoute 
-            city="Aurangabad" 
-            rides="260" 
-            badge="Trending" 
-            badgeClass="badge-trending" 
-            icon="/bangalore.png"
-          />
-          <PopularRoute 
-            city="Raigad" 
-            rides="180" 
-            badge="Guest Favorite" 
-            badgeClass="badge-favorite" 
-            icon="/mumbai.png"
-          />
+        <div className="routes-carousel">
+          <Swiper
+            modules={[Autoplay, Navigation]}
+            spaceBetween={24}
+            slidesPerView={1}
+            loop={true}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            navigation={{
+              prevEl: '.prev-route',
+              nextEl: '.next-route',
+            }}
+            breakpoints={{
+              640: { slidesPerView: 2 },
+              992: { slidesPerView: 3 },
+              1200: { slidesPerView: 4 }
+            }}
+            onSwiper={(swiper) => (swiperRef.current = swiper)}
+            className="routes-swiper"
+          >
+            {routes.map((route, index) => (
+              <SwiperSlide key={index}>
+                <PopularRoute {...route} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </section>

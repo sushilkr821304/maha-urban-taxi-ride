@@ -7,7 +7,7 @@ const WhyItem = ({ text }) => (
 
 const WhyChoose = () => {
   return (
-    <section className="section-padding" id="about">
+    <section className="section-padding bg-light-grey" id="about">
       <div className="container">
         <div className="why-choose">
           <div className="why-content reveal">

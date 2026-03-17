@@ -1,12 +1,66 @@
-const HeroSection = () => {
-  return (
-    <section className="hero-section" id="home">
-      <div className="container hero-content">
-        <h1 className="reveal">Active  Rides  Today! </h1>
-        <p className="reveal subtext">Book safe, affordable, and comfortable taxi rides across your city with UrbanRide.</p>
-      </div>
-    </section>
-  )
-}
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import SearchBox from "./SearchBox";
 
-export default HeroSection
+const HeroSection = () => {
+  const slides = [
+    {
+      id: 1,
+      image: "/final_bus.png",
+    },
+    {
+      id: 2,
+      image: "/final_cab1.png",
+    },
+    {
+      id: 3,
+      image: "/final_cab2.png",
+    },
+  ];
+
+  const commonText = {
+    title: "Active  Rides Today!",
+  };
+
+  return (
+    <section className="hero-slider-section" id="home">
+      {/* Background Slider */}
+      <div className="hero-background-slider">
+        <Swiper
+          modules={[Autoplay]}
+          speed={1500}
+          autoplay={{
+            delay: 4000,
+            disableOnInteraction: false,
+          }}
+          loop={true}
+          className="hero-swiper"
+        >
+          {slides.map((slide) => (
+            <SwiperSlide key={slide.id}>
+              <div
+                className="hero-slide-bg"
+                style={{
+                  backgroundImage: `url(${slide.image})`,
+                }}
+              ></div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+
+      {/* Fixed Content Over Slider */}
+      <div className="container hero-content-fixed">
+        <h1 className="hero-title-fixed">{commonText.title}</h1>
+      </div>
+
+      {/* Integrated Search Box - Remains Fixed */}
+      <SearchBox />
+    </section>
+  );
+};
+
+export default HeroSection;

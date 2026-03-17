@@ -1,39 +1,32 @@
 const DownloadApp = () => {
   return (
-    <section className="section-padding bg-white" id="download">
+    <section className="download-section" id="download">
       <div className="container">
-        <div className="download-app-wrapper reveal">
-          <div className="download-content">
-            <h2 className="download-title">Download the Mobile App</h2>
-            <p className="coming-soon">Coming Soon</p>
+        <div className="download-app-wrapper">
+          <div className="download-content reveal reveal-left">
+            <span className="app-badge">COMING SOON – Mobile App</span>
+            <h2 className="download-title">Get the Urban Black <span className="accent-text">App</span></h2>
             <p className="download-desc">
-              Our Android and iOS apps are launching soon. Book rides easily,
-              get real-time tracking, and enjoy special offers.
+              Download the Urban Black mobile app to book rides instantly, 
+              track trips in real time, and enjoy exclusive intercity travel benefits.
             </p>
 
-            <div className="platform-hints">
-              <div className="platform-item">
-                <i className="android-icon"></i>
-                <span>Android</span>
-              </div>
-              <div className="platform-item">
-                <i className="apple-icon"></i>
-                <span>iOS</span>
-              </div>
+            <div className="store-badges">
+              <a href="#" className="store-link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" />
+              </a>
+              <a href="#" className="store-link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store" />
+              </a>
             </div>
+
+            <button className="btn-blue-outline">Notify Me When Available</button>
           </div>
 
-          <div className="download-visual">
-            <div className="mobile-mockup">
-              <img src="/download.png" alt="UrbanRide Mobile App" className="app-img" />
-              <div className="store-buttons">
-                <a href="#" className="store-btn">
-                  {/* <img src="/playstore.png" alt="Google Play" /> */}
-                </a>
-                <a href="#" className="store-btn">
-                  {/* <img src="/appstore.png" alt="App Store" /> */}
-                </a>
-              </div>
+          <div className="download-visual reveal reveal-right">
+            <div className="mobile-mockup-premium">
+              <img src="/mobile1.png" alt="Urban Black Mobile App" className="premium-app-img" />
+              <div className="glow-effect"></div>
             </div>
           </div>
         </div>

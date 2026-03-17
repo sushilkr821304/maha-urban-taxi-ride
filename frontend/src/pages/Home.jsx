@@ -22,14 +22,13 @@ const Home = () => {
 
     window.addEventListener('scroll', handleReveal)
     handleReveal() // Initial check
-    
+
     return () => window.removeEventListener('scroll', handleReveal)
   }, [])
 
   return (
     <>
       <HeroSection />
-      <SearchBox />
       <PopularRoutes />
       <WhyChoose />
       <RideBenefits />
