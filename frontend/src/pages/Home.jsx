@@ -4,6 +4,7 @@ import PopularRoutes from '../components/PopularRoutes'
 import WhyChoose from '../components/WhyChoose'
 import RideBenefits from '../components/RideBenefits'
 import DownloadApp from '../components/DownloadApp'
+import TouristAttractions from '../components/TouristAttractions'
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 
@@ -45,6 +46,7 @@ const Home = () => {
       <WhyChoose />
       <RideBenefits />
       <DownloadApp />
+      <TouristAttractions />
     </>
   )
 }

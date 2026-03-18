@@ -1,0 +1,144 @@
+.tourist-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+  width: 100%;
+  overflow: hidden;
+}
+
+.tourist-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.tourist-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tourist-title {
+  font-size: clamp(32px, 5vw, 40px);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #111;
+  margin-bottom: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tourist-subtitle {
+  color: #666;
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.attraction-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.attraction-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  border: 1px solid #f8f9fa;
+  width: 100%;
+}
+
+.attraction-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card-left {
+  flex: 0 0 40%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.card-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.attraction-card:hover .card-left img {
+  transform: scale(1.05);
+}
+
+.card-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-right h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 8px;
+  margin-top: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-right p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive adjustment */
+@media (max-width: 1024px) {
+  .attraction-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tourist-container {
+    padding: 0 1.5rem;
+  }
+  
+  .attraction-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .attraction-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 15px;
+  }
+  
+  .card-left {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 160px;
+  }
+  
+  .tourist-section {
+    padding: 60px 0;
+  }
+  
+  .tourist-title {
+    font-size: 28px;
+  }
+}
