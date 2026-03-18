@@ -3390,3 +3390,181 @@ button {
     font-size: 1.1rem !important;
   }
 }
+
+/* ==============================================================
+   BOOK A CAB FROM CITIES SECTION
+============================================================== */
+
+.book-from-cities-section {
+  background: linear-gradient(135deg, #111111 0%, #1a1a1a 100%);
+  padding: 5rem 0;
+  margin-top: 2rem;
+}
+
+.book-from-cities-section .book-cities-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.book-from-cities-section .book-cities-title {
+  color: #ffffff;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.8rem;
+  font-weight: 800;
+}
+
+.book-from-cities-section .book-cities-subtitle {
+  color: #a1a1aa;
+  font-size: 1.1rem;
+}
+
+.book-from-cities-section .book-cities-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.book-from-cities-section .book-city-card {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  background-color: #000;
+}
+
+.book-from-cities-section .book-city-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.book-from-cities-section .book-city-card:hover .book-city-img {
+  transform: scale(1.05);
+}
+
+.book-from-cities-section .book-city-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  pointer-events: none;
+}
+
+.signboard-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.signboard-pole {
+  width: 10px;
+  height: 30px;
+  background: #a3a3a3;
+  border: 1px solid #737373;
+}
+
+.signboard {
+  background: #fbbf24;
+  color: #1a1a1a;
+  font-weight: 800;
+  font-size: 1.4rem;
+  padding: 0.5rem 2rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  text-transform: uppercase;
+  border: 3px solid #b45309;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+
+.book-from-cities-section .promo-badge {
+  background: #dc2626;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  box-shadow: 0 4px 15px rgba(220, 38, 38, 0.5);
+  max-width: 200px;
+  align-self: flex-start;
+  border: 2px dashed #fca5a5;
+}
+
+.book-from-cities-section .promo-text-highlight {
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.book-from-cities-section .promo-text {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.book-from-cities-section .promo-price {
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-top: 0.3rem;
+  color: #fef08a;
+  padding-top: 0.3rem;
+  border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+/* Responsive adjustments for Book From Cities Section */
+@media (max-width: 1024px) {
+  .book-from-cities-section .book-cities-grid {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .book-from-cities-section {
+    padding: 3rem 0;
+  }
+  
+  .book-from-cities-section .book-city-img {
+    height: 200px;
+  }
+  
+  .book-from-cities-section .book-cities-title {
+    font-size: 1.8rem;
+  }
+  
+  .signboard {
+    font-size: 1.2rem;
+    padding: 0.4rem 1.5rem;
+  }
+  
+  .signboard-pole {
+    height: 20px;
+  }
+  
+  .book-from-cities-section .promo-badge {
+    padding: 0.6rem 1rem;
+  }
+  
+  .book-from-cities-section .promo-text-highlight {
+    font-size: 1.2rem;
+  }
+  
+  .book-from-cities-section .promo-price {
+    font-size: 1rem;
+  }
+}

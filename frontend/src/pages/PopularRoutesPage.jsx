@@ -185,7 +185,7 @@ const PopularRoutesPage = () => {
                     </div>
 
                     <div className="route-action-container">
-                      <button 
+                      <button
                         className="book-route-btn full-width"
                         onClick={() => navigate('/#search-section')}
                       >
@@ -204,6 +204,39 @@ const PopularRoutesPage = () => {
           </div>
         </section>
       </div>
+
+      {/* Book A Cab From Cities Section */}
+      <section className="book-from-cities-section">
+        <div className="container">
+          <div className="book-cities-header">
+            <h2 className="book-cities-title">BOOK A BUS/CAB FROM CITIES</h2>
+            <p className="book-cities-subtitle">Take advantage of great rates, reliable service, and on-time pick-up-drop!</p>
+          </div>
+          <div className="book-cities-grid">
+            <div className="book-city-card">
+              <img src="/pune1.png" alt="Nashik to Pune" className="book-city-img" />
+              <div className="book-city-overlay">
+                <div className="signboard-container">
+                  <div className="signboard-pole"></div>
+                  <div className="signboard"></div>
+                </div>
+
+              </div>
+            </div>
+
+            <div className="book-city-card">
+              <img src="/pune2.png" alt="Pune to Nashik" className="book-city-img" />
+              <div className="book-city-overlay">
+                <div className="signboard-container">
+                  <div className="signboard-pole"></div>
+                  <div className="signboard"></div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
