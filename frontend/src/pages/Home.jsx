@@ -5,8 +5,20 @@ import WhyChoose from '../components/WhyChoose'
 import RideBenefits from '../components/RideBenefits'
 import DownloadApp from '../components/DownloadApp'
 import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 
 const Home = () => {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash === '#search-section') {
+      const element = document.getElementById('search-section');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [hash]);
+
   useEffect(() => {
     const handleReveal = () => {
       const reveals = document.querySelectorAll('.reveal')

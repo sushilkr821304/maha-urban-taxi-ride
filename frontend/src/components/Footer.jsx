@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  const today = new Date();
+  const options = { day: '2-digit', month: 'long', year: 'numeric' };
+  const formattedDate = today.toLocaleDateString('en-IN', options);
+
   return (
     <footer className="main-footer">
       <div className="container">
@@ -78,8 +82,8 @@ const Footer = () => {
         {/* Footer Bottom Info Row */}
         <div className="footer-bottom-row">
           <div className="footer-bottom-left">
-            <p>© 2026 Maha Urban Taxi Ride. All rights reserved.</p>
-            <p className="last-updated">Last Updated: 16 March 2026</p>
+            <p>© {today.getFullYear()} Maha Urban Taxi Ride. All rights reserved.</p>
+            <p className="last-updated">Last Updated: {formattedDate}</p>
           </div>
 
           <div className="footer-bottom-center">

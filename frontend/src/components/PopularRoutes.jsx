@@ -45,7 +45,7 @@ const PopularRoutes = () => {
             <button className="control-btn next-route">→</button>
           </div>
         </div>
-        
+
         <div className="routes-carousel">
           <Swiper
             modules={[Autoplay, Navigation]}

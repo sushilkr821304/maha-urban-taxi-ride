@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const PopularRoutesPage = () => {
+  const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState('');
   const [filterCity, setFilterCity] = useState('All Cities');
   const [loading, setLoading] = useState(false);
@@ -26,7 +28,7 @@ const PopularRoutesPage = () => {
       to: 'Nashik',
       distance: '165 km',
       time: '4 hrs',
-      image: '/bus5.png',
+      image: '/bus9.png',
       tag: 'Trending',
       trending: true
     },
@@ -36,7 +38,7 @@ const PopularRoutesPage = () => {
       to: 'Mahabaleshwar',
       distance: '120 km',
       time: '3 hrs',
-      image: '/bus5.png',
+      image: '/bus6.png',
       tag: 'Recently Booked',
       trending: false
     },
@@ -66,7 +68,7 @@ const PopularRoutesPage = () => {
       to: 'Shirdi',
       distance: '185 km',
       time: '4.5 hrs',
-      image: 'https://images.unsplash.com/photo-1624605991444-486016149463?q=80&w=800&auto=format&fit=crop',
+      image: '/bus8.png',
       tag: 'Top Rated',
       trending: true
     }
@@ -183,7 +185,12 @@ const PopularRoutesPage = () => {
                     </div>
 
                     <div className="route-action-container">
-                      <button className="book-route-btn full-width">Book Now</button>
+                      <button 
+                        className="book-route-btn full-width"
+                        onClick={() => navigate('/#search-section')}
+                      >
+                        Book Now
+                      </button>
                     </div>
                   </div>
                 </div>

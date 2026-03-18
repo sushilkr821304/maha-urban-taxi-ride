@@ -82,7 +82,7 @@ button {
 
 /* Container */
 .container {
-  max-width: 1150px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -331,13 +331,16 @@ button {
 }
 
 .hero-title-fixed {
-  font-size: 3.2rem;
-  font-weight: 700;
-  color: var(--primary);
+  font-size: 3.5rem;
+  font-weight: 800;
   letter-spacing: -1px;
-  line-height: 1.1;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.1;
 }
 
 /* Custom Swiper Controls */
@@ -672,10 +675,19 @@ button {
 /* Responsive adjustment for calendar */
 @media (max-width: 768px) {
   .custom-calendar-popup {
-    width: 280px;
-    padding: 1rem;
+    width: 310px;
+    padding: 0.8rem;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .calendar-day {
+    height: 35px;
+    font-size: 0.85rem;
+  }
+
+  .weekday {
+    font-size: 0.8rem;
   }
 }
 
@@ -1067,20 +1079,23 @@ button {
 .benefits-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
-  margin-top: 2rem;
+  gap: 24px;
+  margin-top: 3rem;
   align-items: stretch;
 }
 
 @media (max-width: 1024px) {
   .benefits-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }
 
 @media (max-width: 768px) {
   .benefits-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+    gap: 25px !important;
+    padding: 0 10px;
   }
 
   .benefit-title {
@@ -1440,6 +1455,8 @@ button {
 
   .search-box {
     grid-template-columns: 1fr;
+    padding: 1rem;
+    border-radius: 20px;
   }
 
   .search-btn {
@@ -1959,8 +1976,9 @@ button {
 .about-hero h1 {
   font-size: 3.5rem;
   font-weight: 800;
+  letter-spacing: -1px;
   margin-bottom: 1rem;
-  color: white;
+  color: #ffffff;
 }
 
 .about-hero p {
@@ -2242,6 +2260,20 @@ button {
   font-weight: 800;
   color: var(--primary);
   margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+}
+
+.contact-header h1::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 5px;
+  background: #ffb800;
+  border-radius: 10px;
 }
 
 .contact-header p {
@@ -2881,7 +2913,8 @@ button {
     color: var(--primary);
     border-radius: 8px;
     font-size: 1.25rem;
-    z-index: 10001 !important; /* Always above menu drawer */
+    z-index: 10001 !important;
+    /* Always above menu drawer */
     cursor: pointer;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: var(--transition);
@@ -2925,7 +2958,8 @@ button {
   }
 
   .nav-links a {
-    color: #1a1a1a !important; /* Force high contrast dark color */
+    color: #1a1a1a !important;
+    /* Force high contrast dark color */
     font-size: 1.4rem !important;
     font-weight: 700 !important;
     padding: 15px 0 !important;
@@ -2996,7 +3030,8 @@ button {
     right: auto !important;
     transform: none !important;
     width: 92% !important;
-    max-width: 500px; /* Prevent it from getting too wide on tablets */
+    max-width: 500px;
+    /* Prevent it from getting too wide on tablets */
     margin: 0 auto !important;
     z-index: 10;
   }
@@ -3007,7 +3042,7 @@ button {
     border-radius: 20px !important;
     gap: 0 !important;
     background: white !important;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.15) !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15) !important;
   }
 
   .input-group {
@@ -3048,7 +3083,6 @@ button {
     margin-left: 0 !important;
   }
 
-  .benefits-grid,
   .why-choose {
     grid-template-columns: 1fr !important;
     gap: 20px !important;
@@ -3181,10 +3215,10 @@ button {
 }
 
 .contact-card-title {
-  font-size: 2.25rem !important;
+  font-size: 1.75rem !important;
   font-weight: 800 !important;
   color: var(--primary) !important;
-  margin-bottom: 40px !important;
+  margin-bottom: 50px !important;
   text-align: center;
   position: relative;
 }
@@ -3197,7 +3231,7 @@ button {
   transform: translateX(-50%);
   width: 60px;
   height: 4px;
-  background: var(--accent);
+  background: var(--accent) !important;
   border-radius: 10px;
 }
 
@@ -3208,21 +3242,29 @@ button {
 }
 
 .contact-card-heading {
-  font-size: 1.1rem !important;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  font-size: 19px !important;
+  font-weight: 600 !important;
   color: var(--accent) !important;
-  font-weight: 700 !important;
   margin-bottom: 25px !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
   display: block;
 }
 
 .address-details {
   font-style: normal;
-  color: #475569;
-  line-height: 2;
-  font-size: 1.1rem;
-  font-weight: 500;
+}
+
+.address-line {
+  font-size: 14.5px !important;
+  line-height: 1.7 !important;
+  color: #555 !important;
+  margin-bottom: 7px !important;
+  font-weight: 400 !important;
+}
+
+.address-line:last-child {
+  margin-bottom: 0 !important;
 }
 
 .contact-list {
@@ -3238,25 +3280,23 @@ button {
 }
 
 .contact-info-icon {
-  width: 60px;
-  height: 60px;
-  background: var(--bg-light);
-  border: 1px solid #f1f5f9;
-  border-radius: 18px;
+  width: 50px !important;
+  height: 50px !important;
+  background: var(--accent) !important;
+  border-radius: 50% !important;
+  border: none !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--accent);
-  font-size: 1.5rem;
+  color: #ffffff !important;
+  font-size: 1.1rem !important;
   transition: all 0.3s ease;
   flex-shrink: 0;
 }
 
 .contact-info-item:hover .contact-info-icon {
-  background: var(--accent);
-  color: white;
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2);
+  transform: scale(1.1) !important;
+  box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3) !important;
 }
 
 .info-label {
@@ -3284,18 +3324,69 @@ button {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  
+
   .contact-card-content {
     padding: 40px;
   }
 }
 
 @media (max-width: 768px) {
-  .contact-header h1 {
-    font-size: 2.5rem !important;
+  .contact-page {
+    padding: 80px 0 60px;
   }
-  
+
+  .contact-header h1 {
+    font-size: 2.2rem !important;
+  }
+
+  .contact-header p {
+    font-size: 1rem !important;
+    padding: 0 15px;
+  }
+
+  .contact-card {
+    border-radius: 20px !important;
+    margin: 0 15px !important;
+  }
+
+  .contact-card-content {
+    padding: 30px 20px !important;
+  }
+
   .contact-card-title {
-    font-size: 1.75rem !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 40px !important;
+  }
+
+  .contact-card-grid {
+    gap: 35px !important;
+  }
+
+  .contact-card-heading {
+    font-size: 17px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .address-line {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+  }
+
+  .contact-list {
+    gap: 20px !important;
+  }
+
+  .contact-info-item {
+    gap: 15px !important;
+  }
+
+  .contact-info-icon {
+    width: 44px !important;
+    height: 44px !important;
+    font-size: 1rem !important;
+  }
+
+  .info-value {
+    font-size: 1.1rem !important;
   }
 }

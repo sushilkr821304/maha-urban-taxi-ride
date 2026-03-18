@@ -107,7 +107,7 @@ const SearchBox = () => {
   };
 
   return (
-    <div className="search-box-wrapper">
+    <div className="search-box-wrapper" id="search-section">
       <div className="search-box">
         <div className="input-group">
           <label>Source</label>
