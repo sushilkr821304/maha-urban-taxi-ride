@@ -9,15 +9,15 @@ const HeroSection = () => {
   const slides = [
     {
       id: 1,
-      image: "/final_bus.png",
+      image: "/new111.png",
     },
     {
       id: 2,
-      image: "/final_cab1.png",
+      image: "/newbb22.png",
     },
     {
       id: 3,
-      image: "/final_cab2.png",
+      image: "/newbb4.png",
     },
   ];
 

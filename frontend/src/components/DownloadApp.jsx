@@ -7,7 +7,7 @@ const DownloadApp = () => {
             <span className="app-badge">COMING SOON – Mobile App</span>
             <h2 className="download-title">Get the Urban Black <span className="accent-text">App</span></h2>
             <p className="download-desc">
-              Download the Urban Black mobile app to book rides instantly, 
+              Download the Urban Black mobile app to book rides instantly,
               track trips in real time, and enjoy exclusive intercity travel benefits.
             </p>
 
@@ -25,7 +25,7 @@ const DownloadApp = () => {
 
           <div className="download-visual reveal reveal-right">
             <div className="mobile-mockup-premium">
-              <img src="/mobile1.png" alt="Urban Black Mobile App" className="premium-app-img" />
+              <img src="/mobile2.png" alt="Urban Black Mobile App" className="premium-app-img" />
               <div className="glow-effect"></div>
             </div>
           </div>

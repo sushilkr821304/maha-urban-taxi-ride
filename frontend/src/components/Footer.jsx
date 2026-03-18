@@ -7,7 +7,9 @@ const Footer = () => {
         <div className="footer-grid">
           {/* Column 1 – Brand Information */}
           <div className="footer-column brand-info">
-            <h2 className="footer-logo">Maha Urban <span>Taxi Ride</span></h2>
+            <div className="footer-logo-container">
+              <img src="/footer-logo.png" alt="Maha Urban Taxi Ride" className="footer-logo-img" />
+            </div>
             <p className="footer-desc">
               Maha Urban Taxi Ride provides safe, reliable and affordable intercity taxi services across major cities in Maharashtra.
               Our platform connects passengers with verified drivers for comfortable and secure travel.
@@ -21,7 +23,7 @@ const Footer = () => {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About Us</Link></li>
               <li><Link to="/terms">Terms & Conditions</Link></li>
-              <li><Link to="/privacy">Privacy Policy</Link></li>
+              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
               <li><Link to="/refund">Cancellation & Refund</Link></li>
               <li><Link to="/faq">FAQ</Link></li>
             </ul>
@@ -45,25 +47,29 @@ const Footer = () => {
           {/* Column 4 – Contact Information */}
           <div className="footer-column">
             <h3>Contact Us</h3>
-            <div className="company-details">
+            <div className="contact-details-box">
+              <h4 className="footer-company-name">Maha Urban Taxi Ride Private Limited</h4>
+              <p className="footer-subheading">DEPARTMENTAL OFFICE</p>
 
-              <div className="contact-item">
-                <i className="fas fa-map-marker-alt"></i>
-                <address>
-                  1038, Gera Imperium Rise, Opp. Wipro Circle,<br />
-                  Rajiv Gandhi Infotech Park, Hinjewadi Phase 2,<br />
-                  Pune - 411057 (Maha) India
-                </address>
-              </div>
+              <div className="contact-info-list">
+                <div className="contact-info-item">
+                  <i className="fas fa-map-marker-alt"></i>
+                  <p>
+                    1038, Gera Imperium Rise, Opp. Wipro Circle,<br />
+                    Rajiv Gandhi Infotech Park, Hinjewadi Phase 2,<br />
+                    Pune - 411057 (Maha) India
+                  </p>
+                </div>
 
-              <div className="contact-item">
-                <i className="fas fa-phone"></i>
-                <span>08411887118</span>
-              </div>
+                <div className="contact-info-item">
+                  <i className="fas fa-phone-alt"></i>
+                  <a href="tel:08411887118">08411887118</a>
+                </div>
 
-              <div className="contact-item">
-                <i className="fas fa-envelope"></i>
-                <a href="mailto:support@urbanride.ltd">support@urbanride.ltd</a>
+                <div className="contact-info-item">
+                  <i className="fas fa-envelope"></i>
+                  <a href="mailto:support@urbanride.ltd">support@urbanride.ltd</a>
+                </div>
               </div>
             </div>
           </div>
