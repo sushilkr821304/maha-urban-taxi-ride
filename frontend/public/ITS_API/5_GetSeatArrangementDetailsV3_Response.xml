@@ -1,0 +1,1839 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetSeatArrangementDetailsV3Response>
+         <GetSeatArrangementDetailsV3Result>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+               <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ITSSeatDetails" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                     <xs:choice minOccurs="0" maxOccurs="unbounded">
+                        <xs:element name="ITSSeatDetails">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element name="SeatNo" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="IsLadiesSeat" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="SeatType" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="SeatCategory" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="SeatRate" type="xs:double" minOccurs="0"/>
+                                 <xs:element name="Row" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="Column" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="RowSpan" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="ColumnSpan" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="BlockType" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="UpLowBerth" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="Available" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="IsLowPrice" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="BaseFare" type="xs:double" minOccurs="0"/>
+                                 <xs:element name="ServiceTax" type="xs:double" minOccurs="0"/>
+                                 <xs:element name="Surcharges" type="xs:double" minOccurs="0"/>
+                                 <xs:element name="CompanyID" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="FromCityID" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="ToCityID" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="BusTypeName" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="RouteID" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="RouteTimeID" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="ArrivalTime" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="BoardingPoints" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="DroppingPoints" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="CityTime" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="ApproxArrival" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="ReferenceNumber" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="RouteName" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="ArrangementName" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="ArrangementID" type="xs:int" minOccurs="0"/>
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                     </xs:choice>
+                  </xs:complexType>
+               </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+               <DocumentElement xmlns="">
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails1" msdata:rowOrder="0">
+                     <SeatNo>10</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>2</Row>
+                     <Column>3</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>3</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails2" msdata:rowOrder="1">
+                     <SeatNo>11</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>2</Row>
+                     <Column>4</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails3" msdata:rowOrder="2">
+                     <SeatNo>12</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>2</Row>
+                     <Column>5</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails4" msdata:rowOrder="3">
+                     <SeatNo>15</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>3</Row>
+                     <Column>1</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails5" msdata:rowOrder="4">
+                     <SeatNo>16</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>3</Row>
+                     <Column>2</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails6" msdata:rowOrder="5">
+                     <SeatNo>17</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>3</Row>
+                     <Column>3</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>3</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails7" msdata:rowOrder="6">
+                     <SeatNo>18</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>3</Row>
+                     <Column>4</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails8" msdata:rowOrder="7">
+                     <SeatNo>19</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>3</Row>
+                     <Column>5</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails9" msdata:rowOrder="8">
+                     <SeatNo>20</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>3</Row>
+                     <Column>6</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails10" msdata:rowOrder="9">
+                     <SeatNo>21</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>3</Row>
+                     <Column>7</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails11" msdata:rowOrder="10">
+                     <SeatNo>24</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>4</Row>
+                     <Column>3</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>3</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails12" msdata:rowOrder="11">
+                     <SeatNo>25</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>4</Row>
+                     <Column>4</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails13" msdata:rowOrder="12">
+                     <SeatNo>26</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>4</Row>
+                     <Column>5</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails14" msdata:rowOrder="13">
+                     <SeatNo>29</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>5</Row>
+                     <Column>1</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails15" msdata:rowOrder="14">
+                     <SeatNo>30</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>5</Row>
+                     <Column>2</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails16" msdata:rowOrder="15">
+                     <SeatNo>31</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>5</Row>
+                     <Column>3</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>3</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails17" msdata:rowOrder="16">
+                     <SeatNo>32</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>5</Row>
+                     <Column>4</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails18" msdata:rowOrder="17">
+                     <SeatNo>33</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>5</Row>
+                     <Column>5</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails19" msdata:rowOrder="18">
+                     <SeatNo>34</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>5</Row>
+                     <Column>6</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails20" msdata:rowOrder="19">
+                     <SeatNo>35</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>5</Row>
+                     <Column>7</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails21" msdata:rowOrder="20">
+                     <SeatNo>38</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>6</Row>
+                     <Column>3</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>3</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails22" msdata:rowOrder="21">
+                     <SeatNo>39</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>6</Row>
+                     <Column>4</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails23" msdata:rowOrder="22">
+                     <SeatNo>40</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>6</Row>
+                     <Column>5</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails24" msdata:rowOrder="23">
+                     <SeatNo>43</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>7</Row>
+                     <Column>1</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails25" msdata:rowOrder="24">
+                     <SeatNo>44</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>7</Row>
+                     <Column>2</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails26" msdata:rowOrder="25">
+                     <SeatNo>45</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>7</Row>
+                     <Column>3</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>3</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails27" msdata:rowOrder="26">
+                     <SeatNo>46</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>7</Row>
+                     <Column>4</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails28" msdata:rowOrder="27">
+                     <SeatNo>47</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>7</Row>
+                     <Column>5</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails29" msdata:rowOrder="28">
+                     <SeatNo>48</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>7</Row>
+                     <Column>6</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails30" msdata:rowOrder="29">
+                     <SeatNo>49</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>7</Row>
+                     <Column>7</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails31" msdata:rowOrder="30">
+                     <SeatNo>5</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>1</Row>
+                     <Column>5</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails32" msdata:rowOrder="31">
+                     <SeatNo>52</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>8</Row>
+                     <Column>3</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>3</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails33" msdata:rowOrder="32">
+                     <SeatNo>57</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>9</Row>
+                     <Column>1</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails34" msdata:rowOrder="33">
+                     <SeatNo>58</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>9</Row>
+                     <Column>2</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails35" msdata:rowOrder="34">
+                     <SeatNo>59</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>9</Row>
+                     <Column>3</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>3</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails36" msdata:rowOrder="35">
+                     <SeatNo>6</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>1</Row>
+                     <Column>6</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails37" msdata:rowOrder="36">
+                     <SeatNo>60</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>9</Row>
+                     <Column>4</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails38" msdata:rowOrder="37">
+                     <SeatNo>61</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>9</Row>
+                     <Column>5</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails39" msdata:rowOrder="38">
+                     <SeatNo>62</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>9</Row>
+                     <Column>6</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails40" msdata:rowOrder="39">
+                     <SeatNo>63</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>9</Row>
+                     <Column>7</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails41" msdata:rowOrder="40">
+                     <SeatNo>66</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>10</Row>
+                     <Column>3</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>3</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails42" msdata:rowOrder="41">
+                     <SeatNo>7</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>1</Row>
+                     <Column>7</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails43" msdata:rowOrder="42">
+                     <SeatNo>71</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>11</Row>
+                     <Column>1</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails44" msdata:rowOrder="43">
+                     <SeatNo>72</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>11</Row>
+                     <Column>2</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails45" msdata:rowOrder="44">
+                     <SeatNo>73</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>11</Row>
+                     <Column>3</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>3</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails46" msdata:rowOrder="45">
+                     <SeatNo>74</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>11</Row>
+                     <Column>4</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails47" msdata:rowOrder="46">
+                     <SeatNo>75</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>11</Row>
+                     <Column>5</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails48" msdata:rowOrder="47">
+                     <SeatNo>76</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>11</Row>
+                     <Column>6</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails49" msdata:rowOrder="48">
+                     <SeatNo>77</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>11</Row>
+                     <Column>7</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails50" msdata:rowOrder="49">
+                     <SeatNo>80</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>12</Row>
+                     <Column>3</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>3</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails51" msdata:rowOrder="50">
+                     <SeatNo>A</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>1</Row>
+                     <Column>1</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>UB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails52" msdata:rowOrder="51">
+                     <SeatNo>B</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>1</SeatType>
+                     <SeatCategory>21</SeatCategory>
+                     <SeatRate>300</SeatRate>
+                     <Row>1</Row>
+                     <Column>2</Column>
+                     <RowSpan>2</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>0</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>286</BaseFare>
+                     <ServiceTax>14</ServiceTax>
+                     <Surcharges>4</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails53" msdata:rowOrder="52">
+                     <SeatNo>T1</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>1</Row>
+                     <Column>3</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>3</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+                  <ITSSeatDetails diffgr:id="ITSSeatDetails54" msdata:rowOrder="53">
+                     <SeatNo>T2</SeatNo>
+                     <IsLadiesSeat>N</IsLadiesSeat>
+                     <SeatType>0</SeatType>
+                     <SeatCategory>20</SeatCategory>
+                     <SeatRate>220</SeatRate>
+                     <Row>1</Row>
+                     <Column>4</Column>
+                     <RowSpan>0</RowSpan>
+                     <ColumnSpan>0</ColumnSpan>
+                     <BlockType>3</BlockType>
+                     <UpLowBerth>LB</UpLowBerth>
+                     <Available>Y</Available>
+                     <IsLowPrice>0</IsLowPrice>
+                     <BaseFare>210</BaseFare>
+                     <ServiceTax>10</ServiceTax>
+                     <Surcharges>3</Surcharges>
+                     <CompanyID>1</CompanyID>
+                     <FromCityID>70</FromCityID>
+                     <ToCityID>1</ToCityID>
+                     <BusTypeName>luxury</BusTypeName>
+                     <RouteID>2233</RouteID>
+                     <RouteTimeID>5916</RouteTimeID>
+                     <ArrivalTime>04:00 AM</ArrivalTime>
+                     <BoardingPoints>3313|Indira Circle (Opp. Reliance Mall) 02812354121|11:25 PM#3312|Big Bazaar (150FT Ring Road) 02812451210|11:45 PM#33|motitanki chowk 9998800038|11:50 PM#32|limda chowk |11:55 PM</BoardingPoints>
+                     <DroppingPoints>3309|DivyaBhaskar S.G Highway|3:40 AM#3755|Setellight|3:45 AM#49968|Paldi Patel Travels, Ahmedabad|4:00 AM</DroppingPoints>
+                     <CityTime>11:45 PM</CityTime>
+                     <ApproxArrival>21-06-2020 04:00 AM</ApproxArrival>
+                     <ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</ReferenceNumber>
+                     <RouteName>Reliance To Baroda 2 X 1 - 42 SEAT - SLP A/C</RouteName>
+                     <ArrangementName>2 X 1 - 42 SEAT - SLP A/C</ArrangementName>
+                     <ArrangementID>544</ArrangementID>
+                  </ITSSeatDetails>
+               </DocumentElement>
+            </diffgr:diffgram>
+         </GetSeatArrangementDetailsV3Result>
+      </GetSeatArrangementDetailsV3Response>
+   </soap:Body>
+</soap:Envelope>

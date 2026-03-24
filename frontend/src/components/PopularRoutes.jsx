@@ -6,13 +6,18 @@ import 'swiper/css/navigation'
 
 const PopularRoute = ({ city, rides, badge, badgeClass, icon }) => (
   <div className="route-card reveal active">
-    <span className={`badge ${badgeClass}`}>{badge}</span>
-    <div className="route-icon">
-      <img src={icon} alt={city} />
-    </div>
+    {/* Text info on the left */}
     <div className="route-info">
       <h3>{city}</h3>
       <p>{rides} Routes</p>
+    </div>
+
+    {/* Right side container for Badge and Icon with proper vertical spacing */}
+    <div className="route-right">
+      <span className={`badge-tag ${badgeClass}`}>{badge}</span>
+      <div className="route-icon">
+        <img src={icon} alt={city} />
+      </div>
     </div>
   </div>
 )
@@ -37,7 +42,7 @@ const PopularRoutes = () => {
       <div className="container">
         <div className="section-header reveal active">
           <div className="header-text">
-            <h2>Popular Taxi Routes</h2>
+            <h2>Popular Routes</h2>
             <p>Explore the most booked routes with UrbanRide</p>
           </div>
           <div className="carousel-controls">

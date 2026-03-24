@@ -1,0 +1,10 @@
+<soapenv:Header/>
+   <soapenv:Body>
+      <plat:GetSeatArrangementDetailsV3>
+         <!--Optional:-->
+         <plat:ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</plat:ReferenceNumber>
+         <!--Optional:-->
+         <plat:VerifyCall>API VerfiyCall</plat:VerifyCall>
+      </plat:GetSeatArrangementDetailsV3>
+   </soapenv:Body>
+</soapenv:Envelope>

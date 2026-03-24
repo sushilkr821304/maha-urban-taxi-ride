@@ -9,7 +9,7 @@ const About = () => {
         <div className="container">
           <h1>About Us</h1>
           <p>Discover how Maha Urban Ride is redefining urban travel with safe, affordable, and reliable rides for everyone.</p>
-          <Link to="/routes" className="hero-cta-btn">Book a Ride</Link>
+          <Link to="/#hero-section" className="hero-cta-btn">Book a Ride</Link>
         </div>
       </section>
 
@@ -108,7 +108,7 @@ const About = () => {
       <section className="cta-banner">
         <div className="container">
           <h2>Ready to Ride with Us?</h2>
-          <Link to="/#search-section" className="cta-banner-btn">Book Now</Link>
+          <Link to="/#hero-section" className="cta-banner-btn">Book Now</Link>
         </div>
       </section>
     </div>

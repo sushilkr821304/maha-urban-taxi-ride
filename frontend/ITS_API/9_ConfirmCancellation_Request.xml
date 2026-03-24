@@ -1,0 +1,9 @@
+<soapenv:Header/>
+   <soapenv:Body>
+      <plat:ConfirmCancellation>
+         <plat:PNRNo>111783999</plat:PNRNo>
+         <!--Optional:-->
+         <plat:VerifyCall>API VerifyCall</plat:VerifyCall>
+      </plat:ConfirmCancellation>
+   </soapenv:Body>
+</soapenv:Envelope>

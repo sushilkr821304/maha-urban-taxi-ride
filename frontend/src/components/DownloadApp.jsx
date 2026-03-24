@@ -4,10 +4,10 @@ const DownloadApp = () => {
       <div className="container">
         <div className="download-app-wrapper">
           <div className="download-content reveal reveal-left">
-            <span className="app-badge">COMING SOON – Mobile App</span>
-            <h2 className="download-title">Get the Urban Black <span className="accent-text">App</span></h2>
+            <span className="app-badge">  Mobile App</span>
+            <h2 className="download-title">Get the Urban Ride <span className="accent-text">App</span></h2>
             <p className="download-desc">
-              Download the Urban Black mobile app to book rides instantly,
+              Download the Urban Ride mobile app to book rides instantly,
               track trips in real time, and enjoy exclusive intercity travel benefits.
             </p>
 

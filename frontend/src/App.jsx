@@ -11,6 +11,10 @@ import Terms from './pages/Terms'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import RefundPolicy from './pages/RefundPolicy'
 import FAQ from './pages/FAQ'
+import SearchResults from './pages/SearchResults'
+import SeatSelection from './pages/SeatSelection'
+import BookingDetails from './pages/BookingDetails'
+import Recruitment from './pages/Recruitment'
 import ScrollToTop from './components/ScrollToTop'
 import './index.css'
 
@@ -31,6 +35,10 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/refund" element={<RefundPolicy />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/search-results" element={<SearchResults />} />
+          <Route path="/seat-selection" element={<SeatSelection />} />
+          <Route path="/booking-details" element={<BookingDetails />} />
+          <Route path="/recruitment" element={<Recruitment />} />
         </Routes>
         <Footer />
       </div>

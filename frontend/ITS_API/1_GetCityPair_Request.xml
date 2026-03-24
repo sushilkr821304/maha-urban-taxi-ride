@@ -1,0 +1,8 @@
+<soapenv:Header/>
+   <soapenv:Body>
+      <plat:GetCityPair>
+         <!--Optional:-->
+         <plat:verifyCall>API VerifyCall</plat:verifyCall>
+      </plat:GetCityPair>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -26,7 +26,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="hero-slider-section" id="home">
+    <section className="hero-slider-section" id="hero-section">
       {/* Background Slider */}
       <div className="hero-background-slider">
         <Swiper

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <BookSeatV3Response>
+         <BookSeatV3Result>
+            <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+               <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ITSBookSeat" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                     <xs:choice minOccurs="0" maxOccurs="unbounded">
+                        <xs:element name="ITSBookSeat">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element name="PNRNO" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="Status" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="Message" type="xs:string" minOccurs="0"/>
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                     </xs:choice>
+                  </xs:complexType>
+               </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+               <DocumentElement>
+                  <ITSBookSeat diffgr:id="ITSBookSeat1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                     <PNRNO>111783999</PNRNO>
+                     <Status>1</Status>
+                     <Message/>
+                  </ITSBookSeat>
+               </DocumentElement>
+            </diffgr:diffgram>
+         </BookSeatV3Result>
+      </BookSeatV3Response>
+   </soap:Body>
+</soap:Envelope>

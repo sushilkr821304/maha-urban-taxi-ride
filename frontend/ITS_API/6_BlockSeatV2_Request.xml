@@ -1,0 +1,21 @@
+<soapenv:Header/>
+   <soapenv:Body>
+      <plat:BlockSeatV2>
+         <!--Optional:-->
+         <plat:ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</plat:ReferenceNumber>
+         <!--Optional:-->
+         <plat:PassengerName>ITS Tech</plat:PassengerName>
+         <!--Optional:-->
+         <plat:SeatNames>18,M|19,F</plat:SeatNames>
+         <!--Optional:-->
+         <plat:Email>tech@itspl.net</plat:Email>
+         <!--Optional:-->
+         <plat:Phone>9228009972</plat:Phone>
+         <plat:PickupID>3313</plat:PickupID>
+         <plat:PayableAmount>440</plat:PayableAmount>
+         <plat:TotalPassengers>2</plat:TotalPassengers>
+         <!--Optional:-->
+         <plat:VerifyCall>b099a1d1cb9043fabce4397eaa44b4b814637263548837051173</plat:VerifyCall>
+      </plat:BlockSeatV2>
+   </soapenv:Body>
+</soapenv:Envelope>

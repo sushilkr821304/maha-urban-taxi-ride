@@ -1,0 +1,34 @@
+<soapenv:Header/>
+   <soapenv:Body>
+      <plat:BookSeatV3>
+         <plat:BookSeat>
+            <!--Optional:-->
+            <plat:ReferenceNumber>1#70#1#2233#5916#544#20062020#9:30 PM#11:45 PM#2</plat:ReferenceNumber>
+            <!--Optional:-->
+            <plat:PassengerName>ITS Tech</plat:PassengerName>
+            <!--Optional:-->
+            <plat:SeatNames>18,M|19,F</plat:SeatNames>
+            <!--Optional:-->
+            <plat:Email>tech@itspl.net</plat:Email>
+            <!--Optional:-->
+            <plat:Phone>9228009972</plat:Phone>
+            <plat:PickUpID>3313</plat:PickUpID>
+            <plat:PayableAmount>440</plat:PayableAmount>
+            <plat:TotalPassengers>2</plat:TotalPassengers>
+            <!--Optional:-->
+            <plat:VerifyCall>API VerifyCall</plat:VerifyCall>
+            <plat:DropID>3309</plat:DropID>
+            <plat:Discount>0</plat:Discount>
+            <!--Optional:-->
+            <plat:SeatDetails>18,ITS Tech,9228009972,31|19,Darshit,8140099951,37</plat:SeatDetails>
+            <plat:GSTState>0</plat:GSTState>
+            <!--Optional:-->
+            <plat:GSTCompanyName></plat:GSTCompanyName>
+            <!--Optional:-->
+            <plat:GSTRegNo></plat:GSTRegNo>
+            <!--Optional:-->
+            <plat:APIPNRNo>YourTKTNO</plat:APIPNRNo>
+         </plat:BookSeat>
+      </plat:BookSeatV3>
+   </soapenv:Body>
+</soapenv:Envelope>

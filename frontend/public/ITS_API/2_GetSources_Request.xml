@@ -1,0 +1,8 @@
+<soapenv:Header/>
+   <soapenv:Body>
+      <plat:GetSources>
+         <!--Optional:-->
+         <plat:verifyCall>API VerifyCall</plat:verifyCall>
+      </plat:GetSources>
+   </soapenv:Body>
+</soapenv:Envelope>

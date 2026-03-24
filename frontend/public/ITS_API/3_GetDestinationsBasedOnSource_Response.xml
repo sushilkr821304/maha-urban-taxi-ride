@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetDestinationsBasedOnSourceResponse>
+         <GetDestinationsBasedOnSourceResult>
+            <xs:schema id="NewDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+               <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ITSDestinations" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                     <xs:choice minOccurs="0" maxOccurs="unbounded">
+                        <xs:element name="ITSDestinations">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element name="CM_CityID" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="CM_CityName" type="xs:string" minOccurs="0"/>
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                     </xs:choice>
+                  </xs:complexType>
+               </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+               <DocumentElement>
+                  <ITSDestinations diffgr:id="ITSDestinations1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                     <CM_CityID>3755</CM_CityID>
+                     <CM_CityName>Aagariya</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                     <CM_CityID>2821</CM_CityID>
+                     <CM_CityName>Aakoli</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations3" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+                     <CM_CityID>6044</CM_CityID>
+                     <CM_CityName>Aambala</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations4" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+                     <CM_CityID>2395</CM_CityID>
+                     <CM_CityName>Aaradhana Dham</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations5" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+                     <CM_CityID>2407</CM_CityID>
+                     <CM_CityName>Aatkot</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations6" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+                     <CM_CityID>4013</CM_CityID>
+                     <CM_CityName>Aau</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations7" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+                     <CM_CityID>1558</CM_CityID>
+                     <CM_CityName>Abhanpur</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations8" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+                     <CM_CityID>104</CM_CityID>
+                     <CM_CityName>Adipur</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations9" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+                     <CM_CityID>1</CM_CityID>
+                     <CM_CityName>Ahmedabad</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations10" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+                     <CM_CityID>5863</CM_CityID>
+                     <CM_CityName>Ahmedabad (Airport)</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations11" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+                     <CM_CityID>2977</CM_CityID>
+                     <CM_CityName>Ahmedabad (Paldi)</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations12" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+                     <CM_CityID>947</CM_CityID>
+                     <CM_CityName>Ajmer</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations13" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+                     <CM_CityID>5136</CM_CityID>
+                     <CM_CityName>Akolvadi</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations14" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+                     <CM_CityID>2557</CM_CityID>
+                     <CM_CityName>Amrapur (Dhanani)</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations15" msdata:rowOrder="14" diffgr:hasChanges="inserted">
+                     <CM_CityID>2</CM_CityID>
+                     <CM_CityName>Amreli</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations16" msdata:rowOrder="15" diffgr:hasChanges="inserted">
+                     <CM_CityID>852</CM_CityID>
+                     <CM_CityName>Amritsar</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations17" msdata:rowOrder="16" diffgr:hasChanges="inserted">
+                     <CM_CityID>3</CM_CityID>
+                     <CM_CityName>Anand</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations18" msdata:rowOrder="17" diffgr:hasChanges="inserted">
+                     <CM_CityID>5</CM_CityID>
+                     <CM_CityName>Ankleshwar</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations19" msdata:rowOrder="18" diffgr:hasChanges="inserted">
+                     <CM_CityID>2207</CM_CityID>
+                     <CM_CityName>Atkot</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations20" msdata:rowOrder="19" diffgr:hasChanges="inserted">
+                     <CM_CityID>2985</CM_CityID>
+                     <CM_CityName>Babapur</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations21" msdata:rowOrder="20" diffgr:hasChanges="inserted">
+                     <CM_CityID>2404</CM_CityID>
+                     <CM_CityName>Babara</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations22" msdata:rowOrder="21" diffgr:hasChanges="inserted">
+                     <CM_CityID>2202</CM_CityID>
+                     <CM_CityName>Bagodra</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations23" msdata:rowOrder="22" diffgr:hasChanges="inserted">
+                     <CM_CityID>2318</CM_CityID>
+                     <CM_CityName>Bangalore</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations24" msdata:rowOrder="23" diffgr:hasChanges="inserted">
+                     <CM_CityID>90</CM_CityID>
+                     <CM_CityName>Baroda</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations25" msdata:rowOrder="24" diffgr:hasChanges="inserted">
+                     <CM_CityID>3431</CM_CityID>
+                     <CM_CityName>Bavala</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations26" msdata:rowOrder="25" diffgr:hasChanges="inserted">
+                     <CM_CityID>957</CM_CityID>
+                     <CM_CityName>Beawar</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations27" msdata:rowOrder="26" diffgr:hasChanges="inserted">
+                     <CM_CityID>8</CM_CityID>
+                     <CM_CityName>Bharuch</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations28" msdata:rowOrder="27" diffgr:hasChanges="inserted">
+                     <CM_CityID>9</CM_CityID>
+                     <CM_CityName>Bhavnagar</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations29" msdata:rowOrder="28" diffgr:hasChanges="inserted">
+                     <CM_CityID>3825</CM_CityID>
+                     <CM_CityName>Bhayavadar</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations30" msdata:rowOrder="29" diffgr:hasChanges="inserted">
+                     <CM_CityID>10</CM_CityID>
+                     <CM_CityName>Bhuj</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations31" msdata:rowOrder="30" diffgr:hasChanges="inserted">
+                     <CM_CityID>5880</CM_CityID>
+                     <CM_CityName>Borivali (E)</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations32" msdata:rowOrder="31" diffgr:hasChanges="inserted">
+                     <CM_CityID>3404</CM_CityID>
+                     <CM_CityName>Chandigarh</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations33" msdata:rowOrder="32" diffgr:hasChanges="inserted">
+                     <CM_CityID>2948</CM_CityID>
+                     <CM_CityName>Chikhali</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations34" msdata:rowOrder="33" diffgr:hasChanges="inserted">
+                     <CM_CityID>2155</CM_CityID>
+                     <CM_CityName>Chotila</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations35" msdata:rowOrder="34" diffgr:hasChanges="inserted">
+                     <CM_CityID>17</CM_CityID>
+                     <CM_CityName>Dahod</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations36" msdata:rowOrder="35" diffgr:hasChanges="inserted">
+                     <CM_CityID>2242</CM_CityID>
+                     <CM_CityName>Delhi</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations37" msdata:rowOrder="36" diffgr:hasChanges="inserted">
+                     <CM_CityID>22</CM_CityID>
+                     <CM_CityName>Dhoraji</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations38" msdata:rowOrder="37" diffgr:hasChanges="inserted">
+                     <CM_CityID>24</CM_CityID>
+                     <CM_CityName>Dhrol</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations39" msdata:rowOrder="38" diffgr:hasChanges="inserted">
+                     <CM_CityID>25</CM_CityID>
+                     <CM_CityName>Disa</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations40" msdata:rowOrder="39" diffgr:hasChanges="inserted">
+                     <CM_CityID>2391</CM_CityID>
+                     <CM_CityName>Diu</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations41" msdata:rowOrder="40" diffgr:hasChanges="inserted">
+                     <CM_CityID>4110</CM_CityID>
+                     <CM_CityName>Falla</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations42" msdata:rowOrder="41" diffgr:hasChanges="inserted">
+                     <CM_CityID>2226</CM_CityID>
+                     <CM_CityName>Gadu</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations43" msdata:rowOrder="42" diffgr:hasChanges="inserted">
+                     <CM_CityID>109</CM_CityID>
+                     <CM_CityName>Gandhidham</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations44" msdata:rowOrder="43" diffgr:hasChanges="inserted">
+                     <CM_CityID>2159</CM_CityID>
+                     <CM_CityName>Gandhinagar</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations45" msdata:rowOrder="44" diffgr:hasChanges="inserted">
+                     <CM_CityID>30</CM_CityID>
+                     <CM_CityName>Gondal</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations46" msdata:rowOrder="45" diffgr:hasChanges="inserted">
+                     <CM_CityID>2729</CM_CityID>
+                     <CM_CityName>Gundala</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations47" msdata:rowOrder="46" diffgr:hasChanges="inserted">
+                     <CM_CityID>33</CM_CityID>
+                     <CM_CityName>Himmatnagar</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations48" msdata:rowOrder="47" diffgr:hasChanges="inserted">
+                     <CM_CityID>172</CM_CityID>
+                     <CM_CityName>Hyderabad</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations49" msdata:rowOrder="48" diffgr:hasChanges="inserted">
+                     <CM_CityID>2289</CM_CityID>
+                     <CM_CityName>Idar</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations50" msdata:rowOrder="49" diffgr:hasChanges="inserted">
+                     <CM_CityID>2245</CM_CityID>
+                     <CM_CityName>Indore</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations51" msdata:rowOrder="50" diffgr:hasChanges="inserted">
+                     <CM_CityID>3246</CM_CityID>
+                     <CM_CityName>ITS</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations52" msdata:rowOrder="51" diffgr:hasChanges="inserted">
+                     <CM_CityID>983</CM_CityID>
+                     <CM_CityName>Jaipur</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations53" msdata:rowOrder="52" diffgr:hasChanges="inserted">
+                     <CM_CityID>2208</CM_CityID>
+                     <CM_CityName>Jam Kandona</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations54" msdata:rowOrder="53" diffgr:hasChanges="inserted">
+                     <CM_CityID>35</CM_CityID>
+                     <CM_CityName>Jamnagar</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations55" msdata:rowOrder="54" diffgr:hasChanges="inserted">
+                     <CM_CityID>37</CM_CityID>
+                     <CM_CityName>Jetpur</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations56" msdata:rowOrder="55" diffgr:hasChanges="inserted">
+                     <CM_CityID>39</CM_CityID>
+                     <CM_CityName>Junagadh</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations57" msdata:rowOrder="56" diffgr:hasChanges="inserted">
+                     <CM_CityID>5964</CM_CityID>
+                     <CM_CityName>Kamrej</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations58" msdata:rowOrder="57" diffgr:hasChanges="inserted">
+                     <CM_CityID>46</CM_CityID>
+                     <CM_CityName>Keshod</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations59" msdata:rowOrder="58" diffgr:hasChanges="inserted">
+                     <CM_CityID>101</CM_CityID>
+                     <CM_CityName>Kutiyana</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations60" msdata:rowOrder="59" diffgr:hasChanges="inserted">
+                     <CM_CityID>2910</CM_CityID>
+                     <CM_CityName>Kuvadava</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations61" msdata:rowOrder="60" diffgr:hasChanges="inserted">
+                     <CM_CityID>2574</CM_CityID>
+                     <CM_CityName>Limbadi</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations62" msdata:rowOrder="61" diffgr:hasChanges="inserted">
+                     <CM_CityID>52</CM_CityID>
+                     <CM_CityName>Limbdi</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations63" msdata:rowOrder="62" diffgr:hasChanges="inserted">
+                     <CM_CityID>1516</CM_CityID>
+                     <CM_CityName>Lucknow</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations64" msdata:rowOrder="63" diffgr:hasChanges="inserted">
+                     <CM_CityID>502</CM_CityID>
+                     <CM_CityName>Manali</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations65" msdata:rowOrder="64" diffgr:hasChanges="inserted">
+                     <CM_CityID>57</CM_CityID>
+                     <CM_CityName>Mangrol</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations66" msdata:rowOrder="65" diffgr:hasChanges="inserted">
+                     <CM_CityID>60</CM_CityID>
+                     <CM_CityName>Morbi</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations67" msdata:rowOrder="66" diffgr:hasChanges="inserted">
+                     <CM_CityID>703</CM_CityID>
+                     <CM_CityName>Mumbai</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations68" msdata:rowOrder="67" diffgr:hasChanges="inserted">
+                     <CM_CityID>61</CM_CityID>
+                     <CM_CityName>Nadiad</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations69" msdata:rowOrder="68" diffgr:hasChanges="inserted">
+                     <CM_CityID>704</CM_CityID>
+                     <CM_CityName>Nagpur</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations70" msdata:rowOrder="69" diffgr:hasChanges="inserted">
+                     <CM_CityID>706</CM_CityID>
+                     <CM_CityName>Nasik</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations71" msdata:rowOrder="70" diffgr:hasChanges="inserted">
+                     <CM_CityID>113</CM_CityID>
+                     <CM_CityName>Navagadh</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations72" msdata:rowOrder="71" diffgr:hasChanges="inserted">
+                     <CM_CityID>2206</CM_CityID>
+                     <CM_CityName>Navsari</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations73" msdata:rowOrder="72" diffgr:hasChanges="inserted">
+                     <CM_CityID>2772</CM_CityID>
+                     <CM_CityName>Padadhri</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations74" msdata:rowOrder="73" diffgr:hasChanges="inserted">
+                     <CM_CityID>513</CM_CityID>
+                     <CM_CityName>Palampur</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations75" msdata:rowOrder="74" diffgr:hasChanges="inserted">
+                     <CM_CityID>68</CM_CityID>
+                     <CM_CityName>Porbandar</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations76" msdata:rowOrder="75" diffgr:hasChanges="inserted">
+                     <CM_CityID>718</CM_CityID>
+                     <CM_CityName>Pune</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations77" msdata:rowOrder="76" diffgr:hasChanges="inserted">
+                     <CM_CityID>6788</CM_CityID>
+                     <CM_CityName>Ribda</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations78" msdata:rowOrder="77" diffgr:hasChanges="inserted">
+                     <CM_CityID>112</CM_CityID>
+                     <CM_CityName>Samkhiyari</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations79" msdata:rowOrder="78" diffgr:hasChanges="inserted">
+                     <CM_CityID>2216</CM_CityID>
+                     <CM_CityName>Sayla</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations80" msdata:rowOrder="79" diffgr:hasChanges="inserted">
+                     <CM_CityID>2201</CM_CityID>
+                     <CM_CityName>Shapar</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations81" msdata:rowOrder="80" diffgr:hasChanges="inserted">
+                     <CM_CityID>1452</CM_CityID>
+                     <CM_CityName>Sihora</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations82" msdata:rowOrder="81" diffgr:hasChanges="inserted">
+                     <CM_CityID>2161</CM_CityID>
+                     <CM_CityName>Somnath</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations83" msdata:rowOrder="82" diffgr:hasChanges="inserted">
+                     <CM_CityID>2218</CM_CityID>
+                     <CM_CityName>Supedi</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations84" msdata:rowOrder="83" diffgr:hasChanges="inserted">
+                     <CM_CityID>80</CM_CityID>
+                     <CM_CityName>Surat</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations85" msdata:rowOrder="84" diffgr:hasChanges="inserted">
+                     <CM_CityID>81</CM_CityID>
+                     <CM_CityName>Surendranagar</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations86" msdata:rowOrder="85" diffgr:hasChanges="inserted">
+                     <CM_CityID>119</CM_CityID>
+                     <CM_CityName>Talala</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations87" msdata:rowOrder="86" diffgr:hasChanges="inserted">
+                     <CM_CityID>2204</CM_CityID>
+                     <CM_CityName>Tarapur</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations88" msdata:rowOrder="87" diffgr:hasChanges="inserted">
+                     <CM_CityID>88</CM_CityID>
+                     <CM_CityName>Upleta</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations89" msdata:rowOrder="88" diffgr:hasChanges="inserted">
+                     <CM_CityID>92</CM_CityID>
+                     <CM_CityName>Valsad</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations90" msdata:rowOrder="89" diffgr:hasChanges="inserted">
+                     <CM_CityID>120</CM_CityID>
+                     <CM_CityName>Vanthli</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations91" msdata:rowOrder="90" diffgr:hasChanges="inserted">
+                     <CM_CityID>98</CM_CityID>
+                     <CM_CityName>Vapi</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations92" msdata:rowOrder="91" diffgr:hasChanges="inserted">
+                     <CM_CityID>2440</CM_CityID>
+                     <CM_CityName>Vasai</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations93" msdata:rowOrder="92" diffgr:hasChanges="inserted">
+                     <CM_CityID>95</CM_CityID>
+                     <CM_CityName>Veraval</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations94" msdata:rowOrder="93" diffgr:hasChanges="inserted">
+                     <CM_CityID>4008</CM_CityID>
+                     <CM_CityName>Viramgam</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations95" msdata:rowOrder="94" diffgr:hasChanges="inserted">
+                     <CM_CityID>2167</CM_CityID>
+                     <CM_CityName>Virpur</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations96" msdata:rowOrder="95" diffgr:hasChanges="inserted">
+                     <CM_CityID>5579</CM_CityID>
+                     <CM_CityName>Wakde Wadi Petrol Pump</CM_CityName>
+                  </ITSDestinations>
+                  <ITSDestinations diffgr:id="ITSDestinations97" msdata:rowOrder="96" diffgr:hasChanges="inserted">
+                     <CM_CityID>2893</CM_CityID>
+                     <CM_CityName>Wankaner</CM_CityName>
+                  </ITSDestinations>
+               </DocumentElement>
+            </diffgr:diffgram>
+         </GetDestinationsBasedOnSourceResult>
+      </GetDestinationsBasedOnSourceResponse>
+   </soap:Body>
+</soap:Envelope>

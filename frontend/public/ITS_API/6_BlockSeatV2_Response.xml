@@ -1,0 +1,34 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <BlockSeatV2Response>
+         <BlockSeatV2Result>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+               <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ITSBlockSeatV2" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                     <xs:choice minOccurs="0" maxOccurs="unbounded">
+                        <xs:element name="ITSBlockSeatV2">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element name="BlockID" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="Status" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="Message" type="xs:string" minOccurs="0"/>
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                     </xs:choice>
+                  </xs:complexType>
+               </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+               <DocumentElement xmlns="">
+                  <ITSBlockSeatV2 diffgr:id="ITSBlockSeatV21" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                     <BlockID>199252523</BlockID>
+                     <Status>1</Status>
+                     <Message>Success</Message>
+                  </ITSBlockSeatV2>
+               </DocumentElement>
+            </diffgr:diffgram>
+         </BlockSeatV2Result>
+      </BlockSeatV2Response>
+   </soap:Body>
+</soap:Envelope>
