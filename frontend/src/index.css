@@ -3331,7 +3331,7 @@ button {
     height: 100dvh;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(4px);
-    z-index: 999;
+    z-index: 9998;
     animation: fadeIn 0.3s ease;
     touch-action: none;
   }
@@ -5131,5 +5131,136 @@ body {
   .steering-wheel {
     flex-shrink: 0 !important;
     margin-right: 1.5rem !important;
+  }
+}
+
+/* iPad specific Footer Fixes (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 2rem;
+  }
+  
+  .contact-info-item {
+    align-items: flex-start;
+    gap: 1rem;
+    line-height: 1.8;
+  }
+
+  .contact-info-item i {
+    margin-top: 0.4rem;
+  }
+
+  .footer-subheading {
+    margin-bottom: 1rem;
+  }
+
+  .contact-info-list {
+    gap: 1.2rem;
+  }
+
+  /* Navbar menu overlay fix */
+  .menu-overlay {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100dvh !important;
+    background: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    z-index: 9998 !important;
+    animation: fadeIn 0.3s ease;
+    touch-action: none !important;
+    display: block !important;
+  }
+
+  /* Prevent Search box from overlapping Navbar menu/overlay */
+  .search-box-wrapper {
+    z-index: 10 !important;
+  }
+}
+
+/* Our Fleet Section Styles */
+.our-fleet-container {
+  width: 100%;
+}
+
+.fleet-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.fleet-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.fleet-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08); /* Card lift + shadow */
+}
+
+.fleet-image-wrapper {
+  background: white;
+  height: 240px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e2e8f0;
+  overflow: hidden;
+}
+
+.fleet-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.6s ease;
+}
+
+/* Image zoom effect on hover */
+.fleet-card:hover .fleet-image-wrapper img {
+  transform: scale(1.08);
+}
+
+.fleet-content {
+  padding: 2rem;
+  background-color: #f8fafc; /* match route background slightly if needed, beige-like tone from reference */
+  flex-grow: 1;
+}
+
+.fleet-content h3 {
+  font-size: 1.25rem;
+  color: #0f172a;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.fleet-content p {
+  color: #64748b;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Responsive specific to Fleet grid */
+@media (max-width: 991px) {
+  .fleet-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .fleet-grid-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }

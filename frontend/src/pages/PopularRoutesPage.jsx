@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import SearchBox from '../components/SearchBox';
-
+import OurFleet from '../components/OurFleet';
 const PopularRoutesPage = () => {
   const navigate = useNavigate();
   const [filterCity, setFilterCity] = useState('All Cities');
@@ -202,6 +202,11 @@ const PopularRoutesPage = () => {
               Load More Routes
             </button>
           </div>
+        </section>
+
+        {/* Fleet Section addition */}
+        <section className="routes-fleet-section" style={{ marginTop: '5rem', paddingBottom: '3rem' }}>
+          <OurFleet />
         </section>
       </div>
 
